@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Penghancur_Lobangmu"},
+        ["Whitelist Username"] = {""},
         ["Category Fish"] = {
             "Secret",
         },
@@ -38,7 +38,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
@@ -63,8 +63,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = false,
-        ["Minimum Rod"] = "Astral Rod",
+        ["Auto Buying"] = true,
+        ["Minimum Rod"] = "Ghostfin Rod",
         ["Weather List"] = {
             "Wind",
             "Cloudy",
