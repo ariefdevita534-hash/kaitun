@@ -6,7 +6,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
-            "Sacred Guardian Squid","Fossilized Shark"
+            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret","Mythic"
+            "Secret","Mythic",
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
