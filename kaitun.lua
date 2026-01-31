@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret","Mythic",
+            "Secret",
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
