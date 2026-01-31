@@ -4,7 +4,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = true,
+        ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid","Fossilized Shark"
             {Name = "Ruby", Variant = "Gemstone"},
@@ -142,7 +142,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
