@@ -4,9 +4,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = false,
+        ["Auto Unfavorite"] = true,
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
+            "Sacred Guardian Squid","Fossilized Shark"
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
@@ -15,9 +15,9 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {""},
+        ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret",
+            "Secret","Mythic"
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Mythic",
+        ["Auto Sell Threshold"] = "Legendary",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
@@ -142,8 +142,8 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["UltimatePerformance"] = true,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = false,
