@@ -4,7 +4,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = false,
+        ["Auto Unfavorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret",
+            "Secret","Mythic"
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -53,7 +53,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
-        ["Minimum Rod"] = "Astral Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["WebHook"] = {
         ["Link Webhook"] = "",
@@ -64,7 +64,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
-        ["Minimum Rod"] = "Ghostfin Rod",
+        ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
             "Cloudy",
@@ -73,7 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Potions"] = {
         ["Auto Use"] = true,
-        ["Minimum Rod"] = "Astral Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Totems"] = {
         ["Auto Use"] = true,
@@ -86,11 +86,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
-           -- "Megalodon Hunt",
-              "Ghost Shark Hunt",
-              "Worm Hunt",
-              "Shark Hunt",
-             ["Ancient Lochness Monster"] = true,
+            -- "Megalodon Hunt",
+            "Ghost Shark Hunt",
+            "Shark Hunt",
+            ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
@@ -103,13 +102,13 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
 
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
-            "Giant Squid",
             "King Crab",
+            "Cryoshade Glider",
         },
         ["Second Enchant List"] = {
-            "Reeler I",
+        	"Reeler I",
             "Cursed I",
         },
         ["Minimum Rod"] = "Element Rod",
@@ -123,7 +122,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Aether Bait",
             "Singularity Bait",
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Floral Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -138,12 +137,12 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Tropical Grove"] = {"Astral Rod"},
             ["Crater Island"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "",
+        ["Endgame"] = "Ancient Ruin",
     },
 
-    ["ExtremeFpsBoost"] = false,
-    ["UltimatePerformance"] = true,
-    ["Disable3DRender"] = true,
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = false,
+    ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = false,
