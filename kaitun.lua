@@ -4,7 +4,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = true,
+        ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret","Mythic"
+            "Secret",
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -33,12 +33,12 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
@@ -111,7 +111,7 @@ _G.FishItConfig = _G.FishItConfig or {
         	"Reeler I",
             "Cursed I",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
