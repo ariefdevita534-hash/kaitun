@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Mythic",
+        ["Auto Sell Threshold"] = "Rare",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
@@ -87,9 +87,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             -- "Megalodon Hunt",
-            "Ghost Shark Hunt",
-            "Shark Hunt",
-            ["Ancient Lochness Monster"] = true,
+            -- "Ghost Shark Hunt",
+            -- "Shark Hunt",
+            -- ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
@@ -132,15 +132,15 @@ _G.FishItConfig = _G.FishItConfig or {
             "Astral Rod",
         },
         ["Location Rods"] = {
-            ["Fisherman Island"] = {"Starter Rod"},
-            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"},
-            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod"},
+           ["Fisherman Island"] = {"Starter Rod"},
+           ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+           ["Tropical Grove"] = {"Astral Rod"},
+           ["Crystal Depths"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Ancient Ruin",
+        ["Endgame"] = "Crystal Depths",
     },
 
-    ["ExtremeFpsBoost"] = true,
+    ["ExtremeFpsBoost"] = false,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
