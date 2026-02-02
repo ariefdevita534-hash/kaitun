@@ -1,4 +1,4 @@
-_G.FishItConfig = _G.FishItConfig or {
+h_G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = true,
         ["Random Result"] = false,
@@ -130,9 +130,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Astral Rod",
         },
         ["Location Rods"] = {
-           --["Fisherman Island"] = {"Starter Rod"},
-           ["Kohana Volcano"] = {"Ghosfinn Rod", "Element Rod"},
-           ["Treasure Room"] = {"Ghostfinn Rod", "Element Rod"},
+           ["Fisherman Island"] = {"Starter Rod"},
+           ["Kohana Volcano"] = {"Ghosfinn Rod", "Lucky Rod"},
+           ["Treasure Room"] = {"Ghostfinn Rod", "Astral Rod"},
            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Crystal Depths",
