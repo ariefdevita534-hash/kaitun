@@ -1,10 +1,10 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = true,
+        ["Auto Perfect"] = false,
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = false,
+        ["Auto Unfavorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret",
+            "Secret","Mythic"
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Mythic",
+        ["Auto Sell Threshold"] = "Legendary",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
@@ -87,9 +87,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             -- "Megalodon Hunt",
-             "Ghost Shark Hunt",
-             "Shark Hunt",
-            -- ["Ancient Lochness Monster"] = true,
+            "Ghost Shark Hunt",
+            "Shark Hunt",
+            ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
@@ -98,15 +98,57 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "SECRET Hunter",
+            "Mutation Hunter III",
             "Reeler I",
+
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "King Crab",
             "Cryoshade Glider",
         },
         ["Second Enchant List"] = {
         	"Reeler I",
+            "Cursed I",
+        },
+        ["Minimum Rod"] = "Element Rod",
+    },
+    ["Bait List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Midnight Bait",
+            "Chroma Bait",
+            "Corrupt Bait",
+            "Aether Bait",
+            "Singularity Bait",
+        },
+        ["Endgame"] = "Floral Bait",
+    },
+    ["Rod List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Grass Rod",
+            "Midnight Rod",
+            "Astral Rod",
+        },
+        ["Location Rods"] = {
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+            ["Tropical Grove"] = {"Astral Rod"},
+            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod"},
+        },
+        ["Endgame"] = "Ancient Ruin",
+    },
+
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = false,
+    ["Disable3DRender"] = false,
+    ["AutoRemovePlayer"] = true,
+
+    ["AutoReconnect"] = false,
+    ["HideGUI"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
+}        	"Reeler I",
             "Cursed I",
         },
         ["Minimum Rod"] = "Ghosfinn Rod",
