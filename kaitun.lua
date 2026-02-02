@@ -1,6 +1,6 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = false,
+        ["Auto Perfect"] = true,
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
@@ -33,12 +33,12 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Rare",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
@@ -87,8 +87,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             -- "Megalodon Hunt",
-            -- "Ghost Shark Hunt",
-            -- "Shark Hunt",
+             "Ghost Shark Hunt",
+             "Shark Hunt",
             -- ["Ancient Lochness Monster"] = true,
         },
     },
@@ -98,11 +98,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "SECRET Hunter",
-            "Mutation Hunter III",
             "Reeler I",
-
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "King Crab",
             "Cryoshade Glider",
@@ -111,7 +109,7 @@ _G.FishItConfig = _G.FishItConfig or {
         	"Reeler I",
             "Cursed I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Ghosfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -133,9 +131,9 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
            --["Fisherman Island"] = {"Starter Rod"},
-           --["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-           --["Tropical Grove"] = {"Astral Rod"},
-           ["Crystal Depths"] = {"Element Rod", "Ghostfinn Rod"},
+           ["Kohana Volcano"] = {"Ghosfinn Rod", "Element Rod"},
+           ["Treasure Room"] = {"Ghostfinn Rod", "Element Rod"},
+           ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Crystal Depths",
     },
