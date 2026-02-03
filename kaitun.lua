@@ -4,7 +4,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
-        ["Auto Unfavorite"] = true,
+        ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Penghancur_Lobangmu"},
         ["Category Fish"] = {
-            "Secret","Mythic"
+            "Secret",
         },
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -33,12 +33,12 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
@@ -53,7 +53,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
         ["Link Webhook"] = "",
@@ -63,7 +63,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = true,
+        ["Auto Buying"] = false,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
@@ -73,7 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Potions"] = {
         ["Auto Use"] = true,
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
         ["Auto Use"] = true,
@@ -87,9 +87,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             -- "Megalodon Hunt",
-            "Ghost Shark Hunt",
-            "Shark Hunt",
-            ["Ancient Lochness Monster"] = true,
+             "Ghost Shark Hunt",
+             "Shark Hunt",
+             ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
@@ -104,14 +104,14 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
-            "King Crab",
+            "Frostborn Shark",
             "Cryoshade Glider",
         },
         ["Second Enchant List"] = {
-        	"Reeler I",
-            "Cursed I",
+            "Reeler I",
+            "Prismatic I",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -122,7 +122,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Aether Bait",
             "Singularity Bait",
         },
-        ["Endgame"] = "Floral Bait",
+        ["Endgame"] = "",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -137,47 +137,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Tropical Grove"] = {"Astral Rod"},
             ["Crater Island"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Ancient Ruin",
-    },
-
-    ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
-    ["AutoRemovePlayer"] = true,
-
-    ["AutoReconnect"] = false,
-    ["HideGUI"] = false,
-    ["EXIT_MAP_IF_DISCONNECT"] = false,
-}        	"Reeler I",
-            "Cursed I",
-        },
-        ["Minimum Rod"] = "Ghosfinn Rod",
-    },
-    ["Bait List"] = {
-        ["Auto Buying"] = true,
-        ["Buy List"] = {
-            "Midnight Bait",
-            "Chroma Bait",
-            "Corrupt Bait",
-            "Aether Bait",
-            "Singularity Bait",
-        },
-        ["Endgame"] = "Floral Bait",
-    },
-    ["Rod List"] = {
-        ["Auto Buying"] = true,
-        ["Buy List"] = {
-            "Grass Rod",
-            "Midnight Rod",
-            "Astral Rod",
-        },
-        ["Location Rods"] = {
-           ["Fisherman Island"] = {"Starter Rod"},
-           ["Kohana Volcano"] = {"Ghosfinn Rod", "Lucky Rod"},
-           ["Treasure Room"] = {"Ghostfinn Rod", "Astral Rod"},
-           ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
-        },
-        ["Endgame"] = "Crystal Depths",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = false,
